@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <style> 
-    td {
+    #skills table td {
         border: 1px solid black;
+    }
+    #education table {
+        border: 1px solid black;
+    }
+    #education table td {
+        padding-left: 15px;
     }
 </style>
 <html>
@@ -33,7 +39,7 @@
         </header>
         <main>
             <h1>Навыки</h1>
-            <div class="#skills">
+            <div id="skills">
                 <table>
                     <tr>
                         <td>
@@ -60,35 +66,59 @@
                     </tr>
                 </table>
             </div>
-        <h1>Образование</h1>
-        <table id="education">
-            <thead>
-                <tr>
-                    <th>
-                        Образование
-                    </th>
-                    <th>
-                        Место
-                    </th>
-                    <th>
-                        Дата
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        Баклавариат Прикладная Математика
-                    </td>
-                    <td>
-                        МИСИС
-                    </td>
-                    <td>
-                        Сентябрь 2022 — Сентябрь 2026
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        <div id="education">
+            <h1>Образование</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            Образование
+                        </th>
+                        <th>
+                            Место
+                        </th>
+                        <th>
+                            Дата
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Баклавариат Прикладная Математика
+                        </td>
+                        <td>
+                            МИСИС
+                        </td>
+                        <td>
+                            Сентябрь 2022 — Сентябрь 2026
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Сберобразование
+                        </td>
+                        <td>
+                            Сбер
+                        </td>
+                        <td>
+                            Сентябрь 2023 — Декабрь 2023
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Lesta games Start
+                        </td>
+                        <td>
+                            Lesta games
+                        </td>
+                        <td>
+                            Март 2024 — Май 2024
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         </main>     
     </body>
 </html>
