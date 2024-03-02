@@ -1,1 +1,1 @@
-"# A simple CV to rehearse basic HTML" 
+# A simple CV to rehearse basic HTML 
